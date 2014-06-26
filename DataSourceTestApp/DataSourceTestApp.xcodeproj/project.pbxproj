@@ -22,6 +22,19 @@
 		AA3BDA4B195C10B400C37F44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA3BDA49195C10B400C37F44 /* InfoPlist.strings */; };
 		AA3BDA4D195C10B400C37F44 /* DataSourceTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA4C195C10B400C37F44 /* DataSourceTestAppTests.m */; };
 		AA3BDA5D195C129700C37F44 /* DSTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA5C195C129700C37F44 /* DSTConstants.m */; };
+		AA3BDA63195C1E9500C37F44 /* DSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA62195C1E9500C37F44 /* DSTViewController.m */; };
+		AA3BDA66195C1F2100C37F44 /* DSTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA65195C1F2100C37F44 /* DSTTableViewController.m */; };
+		AA3BDA69195C1F3600C37F44 /* DSTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA68195C1F3600C37F44 /* DSTCollectionViewController.m */; };
+		AA3BDA6E195C228700C37F44 /* DSTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA6D195C228700C37F44 /* DSTTableViewCell.m */; };
+		AA3BDA71195C236800C37F44 /* DSTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA70195C236800C37F44 /* DSTMainViewController.m */; };
+		AA3BDA74195C368400C37F44 /* DataSourceModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA72195C368400C37F44 /* DataSourceModel.xcdatamodeld */; };
+		AA3BDA77195C36BE00C37F44 /* DSTCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA76195C36BE00C37F44 /* DSTCoreDataStore.m */; };
+		AA3BDA79195C37F000C37F44 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3BDA78195C37F000C37F44 /* CoreData.framework */; };
+		AA3BDA7C195C3D2700C37F44 /* NSManagedObjectContext+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA7B195C3D2700C37F44 /* NSManagedObjectContext+Additions.m */; };
+		AA3BDA84195C42A800C37F44 /* DSTDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA83195C42A800C37F44 /* DSTDataViewController.m */; };
+		AA3BDA88195C4E8E00C37F44 /* DSTFetchedDataSourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA87195C4E8E00C37F44 /* DSTFetchedDataSourceController.m */; };
+		AA3BDA8C195C560700C37F44 /* DSTManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA8B195C560700C37F44 /* DSTManagedObject.m */; };
+		AA3BDA8F195C561900C37F44 /* DSTEventEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3BDA8E195C561900C37F44 /* DSTEventEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +69,31 @@
 		AA3BDA4C195C10B400C37F44 /* DataSourceTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSourceTestAppTests.m; sourceTree = "<group>"; };
 		AA3BDA5B195C129700C37F44 /* DSTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTConstants.h; sourceTree = "<group>"; };
 		AA3BDA5C195C129700C37F44 /* DSTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTConstants.m; sourceTree = "<group>"; };
+		AA3BDA61195C1E9500C37F44 /* DSTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTViewController.h; sourceTree = "<group>"; };
+		AA3BDA62195C1E9500C37F44 /* DSTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTViewController.m; sourceTree = "<group>"; };
+		AA3BDA64195C1F2100C37F44 /* DSTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTTableViewController.h; sourceTree = "<group>"; };
+		AA3BDA65195C1F2100C37F44 /* DSTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTTableViewController.m; sourceTree = "<group>"; };
+		AA3BDA67195C1F3600C37F44 /* DSTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTCollectionViewController.h; sourceTree = "<group>"; };
+		AA3BDA68195C1F3600C37F44 /* DSTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTCollectionViewController.m; sourceTree = "<group>"; };
+		AA3BDA6C195C228700C37F44 /* DSTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTTableViewCell.h; sourceTree = "<group>"; };
+		AA3BDA6D195C228700C37F44 /* DSTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTTableViewCell.m; sourceTree = "<group>"; };
+		AA3BDA6F195C236800C37F44 /* DSTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTMainViewController.h; sourceTree = "<group>"; };
+		AA3BDA70195C236800C37F44 /* DSTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTMainViewController.m; sourceTree = "<group>"; };
+		AA3BDA73195C368400C37F44 /* DataSourceModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataSourceModel.xcdatamodel; sourceTree = "<group>"; };
+		AA3BDA75195C36BE00C37F44 /* DSTCoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTCoreDataStore.h; sourceTree = "<group>"; };
+		AA3BDA76195C36BE00C37F44 /* DSTCoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTCoreDataStore.m; sourceTree = "<group>"; };
+		AA3BDA78195C37F000C37F44 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA3BDA7A195C3D2700C37F44 /* NSManagedObjectContext+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Additions.h"; sourceTree = "<group>"; };
+		AA3BDA7B195C3D2700C37F44 /* NSManagedObjectContext+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Additions.m"; sourceTree = "<group>"; };
+		AA3BDA82195C42A800C37F44 /* DSTDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTDataViewController.h; sourceTree = "<group>"; };
+		AA3BDA83195C42A800C37F44 /* DSTDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTDataViewController.m; sourceTree = "<group>"; };
+		AA3BDA85195C4D8800C37F44 /* DSTDataSourceControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSTDataSourceControllerProtocol.h; sourceTree = "<group>"; };
+		AA3BDA86195C4E8E00C37F44 /* DSTFetchedDataSourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTFetchedDataSourceController.h; sourceTree = "<group>"; };
+		AA3BDA87195C4E8E00C37F44 /* DSTFetchedDataSourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTFetchedDataSourceController.m; sourceTree = "<group>"; };
+		AA3BDA8A195C560700C37F44 /* DSTManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTManagedObject.h; sourceTree = "<group>"; };
+		AA3BDA8B195C560700C37F44 /* DSTManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTManagedObject.m; sourceTree = "<group>"; };
+		AA3BDA8D195C561900C37F44 /* DSTEventEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTEventEntity.h; sourceTree = "<group>"; };
+		AA3BDA8E195C561900C37F44 /* DSTEventEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTEventEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3BDA79195C37F000C37F44 /* CoreData.framework in Frameworks */,
 				AA3BDA24195C10B300C37F44 /* CoreGraphics.framework in Frameworks */,
 				AA3BDA26195C10B300C37F44 /* UIKit.framework in Frameworks */,
 				AA3BDA22195C10B300C37F44 /* Foundation.framework in Frameworks */,
@@ -106,6 +145,7 @@
 		AA3BDA20195C10B300C37F44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA3BDA78195C37F000C37F44 /* CoreData.framework */,
 				AA3BDA21195C10B300C37F44 /* Foundation.framework */,
 				AA3BDA23195C10B300C37F44 /* CoreGraphics.framework */,
 				AA3BDA25195C10B300C37F44 /* UIKit.framework */,
@@ -163,6 +203,11 @@
 		AA3BDA56195C11F100C37F44 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AA3BDA60195C1E8100C37F44 /* Abstract */,
+				AA3BDA6F195C236800C37F44 /* DSTMainViewController.h */,
+				AA3BDA70195C236800C37F44 /* DSTMainViewController.m */,
+				AA3BDA82195C42A800C37F44 /* DSTDataViewController.h */,
+				AA3BDA83195C42A800C37F44 /* DSTDataViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,6 +215,10 @@
 		AA3BDA57195C11FC00C37F44 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AA3BDA89195C55E700C37F44 /* Entities */,
+				AA3BDA7D195C3FB000C37F44 /* DataSource */,
+				AA3BDA75195C36BE00C37F44 /* DSTCoreDataStore.h */,
+				AA3BDA76195C36BE00C37F44 /* DSTCoreDataStore.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +226,8 @@
 		AA3BDA58195C121100C37F44 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AA3BDA6A195C225300C37F44 /* TableView Cells */,
+				AA3BDA6B195C225F00C37F44 /* CollectionView Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +235,8 @@
 		AA3BDA59195C122500C37F44 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				AA3BDA7A195C3D2700C37F44 /* NSManagedObjectContext+Additions.h */,
+				AA3BDA7B195C3D2700C37F44 /* NSManagedObjectContext+Additions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -210,8 +263,59 @@
 		AA3BDA5F195C167000C37F44 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				AA3BDA72195C368400C37F44 /* DataSourceModel.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		AA3BDA60195C1E8100C37F44 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BDA61195C1E9500C37F44 /* DSTViewController.h */,
+				AA3BDA62195C1E9500C37F44 /* DSTViewController.m */,
+				AA3BDA64195C1F2100C37F44 /* DSTTableViewController.h */,
+				AA3BDA65195C1F2100C37F44 /* DSTTableViewController.m */,
+				AA3BDA67195C1F3600C37F44 /* DSTCollectionViewController.h */,
+				AA3BDA68195C1F3600C37F44 /* DSTCollectionViewController.m */,
+			);
+			name = Abstract;
+			sourceTree = "<group>";
+		};
+		AA3BDA6A195C225300C37F44 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BDA6C195C228700C37F44 /* DSTTableViewCell.h */,
+				AA3BDA6D195C228700C37F44 /* DSTTableViewCell.m */,
+			);
+			name = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		AA3BDA6B195C225F00C37F44 /* CollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CollectionView Cells";
+			sourceTree = "<group>";
+		};
+		AA3BDA7D195C3FB000C37F44 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BDA85195C4D8800C37F44 /* DSTDataSourceControllerProtocol.h */,
+				AA3BDA86195C4E8E00C37F44 /* DSTFetchedDataSourceController.h */,
+				AA3BDA87195C4E8E00C37F44 /* DSTFetchedDataSourceController.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		AA3BDA89195C55E700C37F44 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BDA8A195C560700C37F44 /* DSTManagedObject.h */,
+				AA3BDA8B195C560700C37F44 /* DSTManagedObject.m */,
+				AA3BDA8D195C561900C37F44 /* DSTEventEntity.h */,
+				AA3BDA8E195C561900C37F44 /* DSTEventEntity.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,8 +451,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3BDA69195C1F3600C37F44 /* DSTCollectionViewController.m in Sources */,
+				AA3BDA71195C236800C37F44 /* DSTMainViewController.m in Sources */,
+				AA3BDA63195C1E9500C37F44 /* DSTViewController.m in Sources */,
 				AA3BDA32195C10B300C37F44 /* AppDelegate.m in Sources */,
+				AA3BDA77195C36BE00C37F44 /* DSTCoreDataStore.m in Sources */,
 				AA3BDA5D195C129700C37F44 /* DSTConstants.m in Sources */,
+				AA3BDA66195C1F2100C37F44 /* DSTTableViewController.m in Sources */,
+				AA3BDA88195C4E8E00C37F44 /* DSTFetchedDataSourceController.m in Sources */,
+				AA3BDA84195C42A800C37F44 /* DSTDataViewController.m in Sources */,
+				AA3BDA6E195C228700C37F44 /* DSTTableViewCell.m in Sources */,
+				AA3BDA8F195C561900C37F44 /* DSTEventEntity.m in Sources */,
+				AA3BDA8C195C560700C37F44 /* DSTManagedObject.m in Sources */,
+				AA3BDA7C195C3D2700C37F44 /* NSManagedObjectContext+Additions.m in Sources */,
+				AA3BDA74195C368400C37F44 /* DataSourceModel.xcdatamodeld in Sources */,
 				AA3BDA2E195C10B300C37F44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +685,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA3BDA72195C368400C37F44 /* DataSourceModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA3BDA73195C368400C37F44 /* DataSourceModel.xcdatamodel */,
+			);
+			currentVersion = AA3BDA73195C368400C37F44 /* DataSourceModel.xcdatamodel */;
+			path = DataSourceModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA3BDA16195C10B300C37F44 /* Project object */;
 }

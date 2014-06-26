@@ -11,6 +11,18 @@
 #endif
 
 #ifdef __OBJC__
+    //Apple Frameworks
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+
+    //Constants
+    #import "DSTConstants.h"
+
+    //Categories
+    #import "NSManagedObjectContext+Additions.h"
+
+    //Models
+    #import "DSTEventEntity.h"
+    #import "DSTCoreDataStore.h"
 #endif

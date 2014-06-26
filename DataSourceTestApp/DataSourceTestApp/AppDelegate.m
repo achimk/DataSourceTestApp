@@ -13,7 +13,9 @@
 #pragma mark UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Initialize Core Data stack
+    [DSTCoreDataStore sharedInstance];
+    
     return YES;
 }
 							
